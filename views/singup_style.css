@@ -1,0 +1,55 @@
+/*body{
+    min-width: 960px;
+    background-color: green;
+}*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: auto;
+    background-image: url(../images/clover.jpg);
+    background-size: cover;
+    /*background-color: black;*/
+}
+
+#wrapper{
+    background-image: url(../images/notebook.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -250px;
+}
+
+.reg_form{
+    margin-right: 15%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+input{
+    margin-left: 15px;
+    height: 25px;
+    float: right;
+}
+
+.button{
+    width: 110px;
+}

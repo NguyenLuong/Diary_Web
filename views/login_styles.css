@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2015, 10:44:29 AM
+    Author     : user
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: auto;
+    background-image: url(../images/clover.jpg);
+    background-size: cover;
+    /*background-color: black;*/
+}
+
+#wrapper{
+    background-image: url(../images/notebook.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -250px;
+}
+
+.login_form{
+    position: absolute;
+    alignment-adjust: middle;
+    alignment-baseline: central;
+    background-position: center;
+    left: 50%;
+    top: 60%;
+    margin-top: -50px;
+    margin-left: -120px;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+a{
+    float: right;
+}
+
+.button{
+    width: 110px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+input{
+    margin-left: 15px;
+    height: 25px;
+    float: right;
+}

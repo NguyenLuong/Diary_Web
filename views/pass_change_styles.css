@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: auto;
+    background-image: url(images/clover.jpg);
+    background-size: cover;
+}
+
+#wrapper{
+    background-image: url(images/notebook.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -250px;
+}
+
+.login_form{
+    position: absolute;
+    alignment-adjust: middle;
+    alignment-baseline: central;
+    background-position: center;
+    left: 50%;
+    top: 60%;
+    margin-top: -50px;
+    margin-left: -120px;
+}
+
+form{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+a{
+    float: right;
+}
+
+.button{
+    width: 110px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+input{
+    margin-left: 15px;
+    height: 25px;
+    float: right;
+}
